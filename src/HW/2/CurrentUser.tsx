@@ -1,8 +1,8 @@
-import { UserType } from './HW2';
+import { UserType } from './HW2'
 
 type CurrentUserPropsType = {
   user: any // пропиши типизацию
-};
+}
 
 export const CurrentUser = (props: CurrentUserPropsType) => {
   return (
@@ -10,5 +10,5 @@ export const CurrentUser = (props: CurrentUserPropsType) => {
       <strong>{props.user.name}</strong> (Age: {props.user.age})<strong> Address: </strong>
       {props.user.address.street}, {props.user.address.city}
     </li>
-  );
-};
+  )
+}

@@ -1,4 +1,4 @@
-import { UserList } from "./UserList";
+import { UserList } from './UserList'
 
 export const HW1 = () => {
   // 1️⃣ Раскомментируйте JSX (HW1.tsx, UserList.tsx) и вы увидите,
@@ -16,69 +16,69 @@ export const HW1 = () => {
   const users = [
     {
       id: 1,
-      name: "John",
+      name: 'John',
       age: 25,
-      address: { street: "123 Main St", city: "New York" },
+      address: { street: '123 Main St', city: 'New York' },
     },
     {
       id: 2,
-      name: "Alice",
+      name: 'Alice',
       age: 30,
-      address: { street: "456 Elm St", city: "San Francisco" },
+      address: { street: '456 Elm St', city: 'San Francisco' },
     },
     {
       id: 3,
-      name: "Bob",
+      name: 'Bob',
       age: 35,
-      address: { street: "789 Oak St", city: "Seattle" },
+      address: { street: '789 Oak St', city: 'Seattle' },
     },
     {
       id: 4,
-      name: "John",
+      name: 'John',
       age: 44,
-      address: { street: "123 Maple Ave", city: "Dallas" },
+      address: { street: '123 Maple Ave', city: 'Dallas' },
     },
     {
       id: 5,
-      name: "Mary",
+      name: 'Mary',
       age: 13,
-      address: { street: "456 Elm St", city: "Los Angeles" },
+      address: { street: '456 Elm St', city: 'Los Angeles' },
     },
     {
       id: 6,
-      name: "James",
+      name: 'James',
       age: 18,
-      address: { street: "987 Pine Rd", city: "Dallas" },
+      address: { street: '987 Pine Rd', city: 'Dallas' },
     },
     {
       id: 7,
-      name: "Jennifer",
+      name: 'Jennifer',
       age: 21,
-      address: { street: "654 Birch Ct", city: "Seattle" },
+      address: { street: '654 Birch Ct', city: 'Seattle' },
     },
     {
       id: 8,
-      name: "Robert",
+      name: 'Robert',
       age: 4,
-      address: { street: "876 Spruce Way", city: "San Francisco" },
+      address: { street: '876 Spruce Way', city: 'San Francisco' },
     },
     {
       id: 9,
-      name: "Jessica",
+      name: 'Jessica',
       age: 12,
-      address: { street: "543 Willow Dr", city: "San Francisco" },
+      address: { street: '543 Willow Dr', city: 'San Francisco' },
     },
     {
       id: 10,
-      name: "Emily",
+      name: 'Emily',
       age: 55,
-      address: { street: "765 Aspen Blvd", city: "Los Angeles" },
+      address: { street: '765 Aspen Blvd', city: 'Los Angeles' },
     },
-  ];
+  ]
 
   return (
-    <div id={"hw01"}>
+    <div id={'hw01'}>
       <UserList users={users} />
     </div>
-  );
-};
+  )
+}

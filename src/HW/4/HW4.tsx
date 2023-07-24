@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import s from './HW4.module.css';
-import { Button } from './Button';
-import { Input } from './Input';
+import { useState } from 'react'
+import s from './HW4.module.css'
+import { Button } from './Button'
+import { Input } from './Input'
 
 export const HW4 = () => {
   // 1️⃣ Раскомментируйте JSX (HW4.tsx) и вы увидите,
@@ -12,15 +12,13 @@ export const HW4 = () => {
   // - дописать функциональность (где указано комментариями)
   // - приложение должно компилироваться и запускаться в браузере
 
-  const [currentText, setCurrentText] = useState('');
-  const [texts, setTexts] = useState<string[]>([
-    'То, что вы делаете по ночам, то и делает вас богатым. (Аль Капоне)',
-  ]);
+  const [currentText, setCurrentText] = useState('')
+  const [texts, setTexts] = useState<string[]>(['То, что вы делаете по ночам, то и делает вас богатым. (Аль Капоне)'])
 
   const handleSave = () => {
-    setTexts([currentText, ...texts]);
-    setCurrentText('');
-  };
+    setTexts([currentText, ...texts])
+    setCurrentText('')
+  }
 
   return (
     <div id={'hw04'}>
@@ -46,6 +44,5 @@ export const HW4 = () => {
       {/*  })}*/}
       {/*</ol>*/}
     </div>
-  );
-};
-
+  )
+}
